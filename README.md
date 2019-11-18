@@ -1,5 +1,9 @@
 # Face_Classifier
 
+It is suggested users run the following pip command to download key packages:
+
+  pip install dlib imutils face_recognition
+
 To run the Feature Extractor run the following command (quit with SPACE):
 
   python encode_faces.py --dataset dataset --encodings encodings.pickle
@@ -8,7 +12,7 @@ To run the Face Classifier run the following command (quit with SPACE):
 
   python recognize_faces_image.py --encodings encodings.pickle --image examples/True/IMG_1907.jpg
 
-Below is the Python Environment to run the CNN based Face Classifier.
+Below is the Python Environment to run the CNN based Face Classifier:
 
 absl-py==0.8.1
 
