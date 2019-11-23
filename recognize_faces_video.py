@@ -1,3 +1,8 @@
+#This was inspired by the following articles:
+#https://medium.com/@ageitgey/machine-learning-is-fun-part-4-modern-face-recognition-with-deep-learning-c3cffc121d78
+#file:///Users/ryankarl/Downloads/Face%20recognition%20with%20OpenCV,%20Python,%20and%20deep%20learning%20-%20PyImageSearch.htm
+#http://blog.dlib.net/2017/02/high-quality-face-recognition-with-deep.html
+
 # python recognize_faces_video.py --encodings encodings.pickle
 
 from imutils.video import VideoStream
