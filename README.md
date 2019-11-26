@@ -12,6 +12,14 @@ To run the Face Classifier run the following command (quit with SPACE):
 
   python recognize_faces_image.py --encodings encodings.pickle --image examples/True/IMG_1907.jpg
 
+The best way to run the LBP Face Classifier is via iPython Jupyter Notebook (this can be installed via pip or conda).
+
+Once Jupyter is installed, navigate to the lbp directory and start the notebook with the command: (note the iPython kernel is version 3)
+
+  jupyter notebook lbp_work.ipynb
+
+The features have already been extracted, and the model saved, so pickle files are provided for the sake of efficiency and convenience.
+
 Below is the Python Environment to run the CNN based Face Classifier:
 
 absl-py==0.8.1
@@ -158,4 +166,56 @@ Werkzeug==0.16.0
 
 wrapt==1.11.2
 
+Below is the Python Environment to run the LBP-based Face Classifier:
+
+absl-py==0.7.1
+astor==0.8.0
+certifi==2019.6.16
+chardet==3.0.4
+Click==7.0
+cycler==0.10.0
+decorator==4.4.1
+dlib==19.17.0
+easydict==1.9
+face-recognition==1.2.3
+face-recognition-models==0.3.0
+ffmpeg==1.4
+gast==0.2.2
+google-pasta==0.1.7
+grpcio==1.22.0
+h5py==2.9.0
+idna==2.8
+imageio==2.6.1
+imutils==0.5.2
+joblib==0.13.2
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.0
+kiwisolver==1.1.0
+Markdown==3.1.1
+matplotlib==3.1.1
+networkx==2.4
+numpy==1.17.1
+opencv-contrib-python==4.1.1.26
+opencv-python==4.1.0.25
+pandas==0.25.0
+Pillow==6.0.0
+protobuf==3.9.0
+pyparsing==2.4.2
+python-dateutil==2.8.0
+pytz==2019.2
+PyWavelets==1.1.1
+PyYAML==5.1.2
+requests==2.22.0
+scikit-image==0.16.2
+scikit-learn==0.15.0
+scipy==1.3.1
+six==1.12.0
+sklearn==0.0
+tensorboard==1.14.0
+tensorflow==1.14.0
+tensorflow-estimator==1.14.0
+termcolor==1.1.0
+urllib3==1.25.3
+Werkzeug==0.15.5
+wrapt==1.11.2
 
